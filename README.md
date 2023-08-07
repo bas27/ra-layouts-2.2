@@ -1,4 +1,5 @@
 # React + Vite
+
 [![ra-layouts](https://github.com/bas27/ra-layouts-2.2/actions/workflows/web.yml/badge.svg?branch=main)](https://github.com/bas27/ra-layouts-2.2/actions/workflows/web.yml)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules
