@@ -13,5 +13,5 @@ export default function ShopItem({ item }) {
 }
 
 ShopItem.propTypes = {
-  item: PropTypes.string.isRequired
+  item: PropTypes.object.isRequired
 }

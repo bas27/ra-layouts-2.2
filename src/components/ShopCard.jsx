@@ -14,5 +14,5 @@ export default function ShopCard({ card }) {
 }
 
 ShopCard.propTypes = {
-  card: PropTypes.string.isRequired
+  card: PropTypes.object.isRequired
 }
