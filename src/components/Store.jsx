@@ -3,6 +3,8 @@ import CardsView from "./CardsView";
 import IconSwitch from "./IconSwitch";
 import ListView from "./ListView";
 
+import PropTypes from  'prop-types'
+
 export default function Store({ products }) {
   const [icon, setIcon] = useState('view_list');
 
@@ -28,4 +30,8 @@ export default function Store({ products }) {
       {view(icon)}
     </div>
   );
+}
+
+Store.propTypes = {
+  products: PropTypes.array.isRequired
 }

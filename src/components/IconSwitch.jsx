@@ -13,5 +13,5 @@ export default function IconSwitch({ icon, onSwitch }) {
 
 IconSwitch.propTypes = {
   icon: PropTypes.string.isRequired,
-  onSwitch: PropTypes.string.isRequired
+  onSwitch: PropTypes.func.isRequired
 }
