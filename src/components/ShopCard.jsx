@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 export default function ShopCard({ card }) {
   return (
     <div className="card">
@@ -10,4 +11,8 @@ export default function ShopCard({ card }) {
       </div>
     </div>
   );
+}
+
+ShopCard.propTypes = {
+  card: PropTypes.string.isRequired
 }
